@@ -3,11 +3,14 @@
 # 스마트폰응용 기말고사 프로젝트
 
 > ## 목차
->> 메인화면<br>
->> 선택화면<br>
->> 카테고리 선택화면<br>
->> 음식정보 화면<br>
->> 나의기록 정보화면<br>
+>> #### Application 화면
+>>> 1.메인화면<br>
+>>> 2.선택화면<br>
+>>> 3.카테고리 선택화면<br>
+>>> 4.음식정보 화면<br>
+>>> 5.나의기록 정보화면<br>
+>> #### DATABASE
+>> #### 데어터셋 출처
 
 # 
 
@@ -57,6 +60,11 @@
 #### 5-2. 기록 삭제<br>
 <img width="360" height="640" alt="image" src="https://github.com/user-attachments/assets/eca27ae5-a891-4b19-96fc-1339d73dfa60" /><br>
 <img width="360" height="640" alt="image" src="https://github.com/user-attachments/assets/3197b15d-e6a4-4598-9362-a84c6687a247" />
+
+#
+
+### DATABASE
+<img width="1024" height="559" alt="image" src="https://github.com/user-attachments/assets/fd32b1bf-fb05-484a-a60c-9155c054ee0f" />
 
 #
 
