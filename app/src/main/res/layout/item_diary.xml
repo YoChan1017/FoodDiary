@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="15dp"
+    android:gravity="center_vertical"
+    android:background="#FFFFFF">
+
+    <!-- 왼쪽: 정보 표시 영역 -->
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/item_tv_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2024.11.24"
+            android:textSize="14sp"
+            android:textColor="#888888"/>
+
+        <TextView
+            android:id="@+id/item_tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="맛있는 비빔밥"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:maxLines="1"
+            android:ellipsize="end"/>
+    </LinearLayout>
+
+    <!-- 오른쪽: 버튼 영역 -->
+    <Button
+        android:id="@+id/item_btn_view"
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+        android:text="보기"
+        android:textSize="12sp"
+        android:backgroundTint="#4CAF50"
+        android:layout_marginEnd="5dp"/>
+
+    <Button
+        android:id="@+id/item_btn_delete"
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+        android:text="삭제"
+        android:textSize="12sp"
+        android:backgroundTint="#F44336"/>
+
+</LinearLayout>

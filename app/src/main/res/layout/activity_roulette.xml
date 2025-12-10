@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:gravity="center_horizontal"
+    android:background="@drawable/default_background" >
+
+    <!-- 상단 타이틀 (오늘 뭐 먹지?) -->
+    <TextView
+        android:id="@+id/tv_roulette_title"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:text="오늘의 메뉴를 뽑아보세요"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:background="#B3E5FC"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="40dp"/>
+
+    <!-- 룰렛 결과 표시 영역 (중앙 박스) -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:background="#E0E0E0"> <!-- 회색 배경 박스 -->
+
+        <TextView
+            android:id="@+id/tv_result_menu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="?"
+            android:textColor="#000000"
+            android:textSize="35sp"
+            android:textStyle="bold"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/tv_category_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="(카테고리)"
+            android:textSize="15sp"
+            android:layout_marginTop="10dp"/>
+    </LinearLayout>
+
+    <!-- 하단 버튼 영역 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="20dp">
+
+        <!-- 멈춤/시작 버튼 -->
+        <Button
+            android:id="@+id/btn_roulette_action"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:text="뽑기 시작"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="10dp"/>
+
+        <!-- 기록하기 버튼 -->
+        <Button
+            android:id="@+id/btn_go_record"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="저장"
+            android:textSize="18sp"/>
+
+        <!-- 뒤로가기 버튼 -->
+        <Button
+            android:id="@+id/btn_back_roulette"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="뒤로가기"
+            android:textSize="18sp"/>
+
+    </LinearLayout>
+
+</LinearLayout>

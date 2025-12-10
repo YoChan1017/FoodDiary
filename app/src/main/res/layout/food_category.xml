@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="20dp"
+    android:background="@drawable/default_background" >
+
+    <!-- 상단 타이틀 -->
+    <TextView
+        android:id="@+id/tv_category_title"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:text="카테고리 선택"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:background="#B3E5FC"
+        android:layout_marginBottom="20dp"/>
+
+    <!-- 설명 텍스트 (선택사항) -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="원하는 식품 분류를 선택하세요"
+        android:textSize="16sp"
+        android:gravity="center"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- 카테고리 목록 (ListView) -->
+    <!-- 텍스트 파일의 대분류 목록이 여기에 표시됩니다 -->
+    <ListView
+        android:id="@+id/listView_category"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#F0F0F0"
+        android:choiceMode="singleChoice">
+    </ListView>
+
+    <!-- 하단 뒤로가기 버튼 -->
+    <Button
+        android:id="@+id/btn_back_category"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="돌아가기"
+        android:textSize="18sp"
+        android:layout_marginTop="20dp"/>
+
+</LinearLayout>

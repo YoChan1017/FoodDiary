@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:padding="20dp"
+    android:background="@drawable/main_background" >
+
+    <TextView
+        android:id="@+id/tv_main_title"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:text="FOOD DIARY"
+        android:textSize="50dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:background="@drawable/bg_title_banner"
+        android:layout_marginTop="30dp" />
+
+    <LinearLayout
+        android:id="@+id/layout_image_space"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical">
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_touch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Touch"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:background="@android:color/transparent"
+        android:layout_marginBottom="30dp"/>
+
+</LinearLayout>

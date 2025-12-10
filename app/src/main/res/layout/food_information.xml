@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:background="@drawable/default_background" >
+
+    <!-- 상단 제목 -->
+    <TextView
+        android:id="@+id/tv_info_title"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:text="음식 정보"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:background="#B3E5FC"
+        android:layout_marginBottom="10dp"/>
+
+    <!-- ★ 검색 영역 추가 ★ -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="5dp">
+
+        <EditText
+            android:id="@+id/et_search_food"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:hint="음식명을 입력하세요"
+            android:padding="10dp"
+            android:background="@android:drawable/edit_text"
+            android:singleLine="true"/>
+
+        <Button
+            android:id="@+id/btn_search_food"
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+            android:text="검색"
+            android:layout_marginStart="5dp"/>
+    </LinearLayout>
+
+    <!-- 컬럼 헤더 -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="음식명 - 분류 - 칼로리"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="5dp"/>
+
+    <!-- 구분선 -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#000000"
+        android:layout_marginBottom="10dp"/>
+
+    <!-- 데이터 리스트 (스크롤 가능 영역) -->
+    <ListView
+        android:id="@+id/listView_food"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#F0F0F0">
+    </ListView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="영양성분함량기준량 : 100 ml/g"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="5dp"/>
+
+    <!-- 하단 뒤로가기 버튼 -->
+    <Button
+        android:id="@+id/btn_back_food"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="타이틀"
+        android:textSize="18sp"
+        android:layout_marginTop="10dp"/>
+
+</LinearLayout>
