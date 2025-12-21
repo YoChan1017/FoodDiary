@@ -2,8 +2,13 @@
 
 # 스마트폰응용 기말고사 프로젝트
 
-> ## 목차
->> #### Application 화면
+## Project Overview
+> 프로젝트 명 : FoodDiary <br>
+> 주제 : 음식메뉴 랜덤추천과 기록 작성 <br>
+> 개발 목표 : Android Studio를 활용한 간단한 APP(Application) 제작 <br>
+
+## 목차
+>>  Application 화면 <br>
 >>> 1.메인화면<br>
 >>> 2.선택화면<br>
 >>> 3.카테고리 선택화면<br>
@@ -13,6 +18,8 @@
 >> #### 데어터셋 출처
 
 # 
+
+## Application 화면
 
 ### 1. 메인<br>
 <img width="360" height="640" alt="image" src="https://github.com/user-attachments/assets/5d34f147-9a45-4e64-afe6-a94177ff338a" /><br>
